@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.io",
-      "title": "WordCamp Central (Frontity example)",
-      "description": "Frontity example site using WordCamp Central posts"
+      "title": "WordCamp Europe 2020 (Frontity example)",
+      "description": "Frontity example site using WordCamp Europe 2020 posts"
     }
   },
   "packages": [
@@ -18,20 +18,16 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Announcements",
+              "/category/announcements/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Contributors",
+              "/tag/contributors/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "About",
+              "/what-is-wordcamp-europe/"
             ]
           ],
           "featured": {
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://central.wordcamp.org/wp-json"
+          "api": "https://2020.europe.wordcamp.org/wp-json"
         }
       }
     },
