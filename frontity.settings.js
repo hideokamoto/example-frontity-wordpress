@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.io",
-      "title": "WordCamp Europe 2020 (Frontity example)",
-      "description": "Frontity example site using WordCamp Europe 2020 posts"
+      "title": "WordPress Theme Unittest",
+      "description": "Frontity example site using WordPress Theme Unittest posts"
     }
   },
   "packages": [
@@ -18,16 +18,16 @@ const settings = {
               "/"
             ],
             [
-              "Announcements",
-              "/category/announcements/"
+              "Edge Case Category",
+              "/category/edge-case-2/"
             ],
             [
-              "Contributors",
-              "/tag/contributors/"
+              "Content Tags",
+              "/tag/content-2/"
             ],
             [
               "About",
-              "/what-is-wordcamp-europe/"
+              "/about/"
             ]
           ],
           "featured": {
@@ -41,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://2020.europe.wordcamp.org/wp-json"
+          "api": "https://b5d85ac952f05c2bcb7e0b42979eff431beac2f1.hl-a.getshifter.co/wp-json"
         }
       }
     },
