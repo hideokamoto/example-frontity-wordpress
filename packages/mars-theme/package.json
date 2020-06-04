@@ -19,6 +19,6 @@
     "@frontity/components": "1.3.2",
     "@frontity/html2react": "1.3.3",
     "frontity": "1.8.0",
-    "react-spinners": "0.5.12"
+    "react-spinners": "0.8.3"
   }
 }
